@@ -13,7 +13,10 @@ LuxTrack ensures authenticity and secure ownership transfer of luxury items by l
 - **Blockchain**: Ethereum  
 - **Smart Contracts**: Solidity  
 - **Frontend**: React.js
-- **Backend**: Node.js 
+- **Backend**: Node.js
+
+✔ Simple Ownership Tracking – Items are stored as structured data instead of tokens.
+✔ Easy Integration – Works well for businesses that don’t need NFTs.
 
 ---  
 
