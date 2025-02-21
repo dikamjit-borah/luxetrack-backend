@@ -9,6 +9,8 @@ LuxTrack ensures authenticity and secure ownership transfer of luxury items by l
 ✅ **Real-time Authentication** – Buyers can verify authenticity via blockchain records.  
 ✅ **Decentralized & Transparent** – No central authority; trust is built on blockchain.  
 
+![alt text](https://github.com/dikamjit-borah/luxetrack-backend/blob/main/luxetrack-features.png)
+
 ## Tech Stack  
 - **Blockchain**: Ethereum  
 - **Smart Contracts**: Solidity  
