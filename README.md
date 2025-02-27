@@ -77,6 +77,31 @@ LuxTrack ensures authenticity and secure ownership transfer of luxury items by l
 - The **frontend** calls the **backend API**, which:  
   ✅ Fetches on-chain ownership history.  
   ✅ Retrieves **metadata** (if stored off-chain).  
-- The frontend displays the **authenticity report**.  
+- The frontend displays the **authenticity report**.
+  
+---
+
+## 📡 Backend API Design  
+
+### **1️⃣ Item Management APIs**  
+
+| Endpoint               | Method  | Description                                  |
+|------------------------|---------|----------------------------------------------|
+| `/api/items/register`  | `POST`  | Registers a new item & stores metadata      |
+| `/api/items/:id`       | `GET`   | Retrieves item details (both on-chain & off-chain) |
+| `/api/items/:id/update` | `PUT`   | Updates metadata of a registered item       |
+
+### **2️⃣ Ownership Transfer APIs**  
+
+| Endpoint                  | Method  | Description                           |
+|---------------------------|---------|---------------------------------------|
+| `/api/transfer/initiate`  | `POST`  | Requests ownership transfer          |
+| `/api/transfer/confirm`   | `POST`  | Confirms and executes the transfer   |
+
+### **3️⃣ Verification APIs**  
+
+| Endpoint           | Method  | Description                          |
+|--------------------|---------|--------------------------------------|
+| `/api/verify/:id` | `GET`   | Fetches an item’s authenticity status |
 
 📜 Licensed under the **MIT License**  
